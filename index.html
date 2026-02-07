@@ -2,31 +2,37 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Just For You 😌</title>
+  <title>Warning ⚠️ Chaos Ahead</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <div class="container">
-  <h1>Hey You 👀💖</h1>
-  <p class="subtitle">Welcome to the most unserious website ever made</p>
+  <h1 class="bounce">Hey Claudie my stupid muffin 🧁 😼💅</h1>
+  <p class="subtitle">This website knows me better than I know myself</p>
 
-  <button onclick="showFact()">Reveal a Fun Fact 😏</button>
+  <button class="wiggle" onclick="showFact()">Expose a Fun Fact 💀</button>
   <p id="fact" class="card"></p>
 
+  <div class="card meme">
+    <h2>Daily Mood 😂</h2>
+    <img id="memeImg" src="" alt="meme">
+    <p id="memeText"></p>
+    <button onclick="newMeme()">New Meme 🔄</button>
+  </div>
+
   <div class="quiz card">
-    <h2>Quick Quiz 🧠😂</h2>
+    <h2>How Well Do You Know Me? 😏</h2>
     <p id="question"></p>
     <div id="answers"></div>
     <p id="result"></p>
   </div>
 
-  <button class="surprise" onclick="surprise()">Click if you’re brave 😈</button>
-
+  <button class="danger" onclick="surprise()">DO NOT CLICK 🚫</button>
   <p id="surpriseText"></p>
 </div>
 
 <script src="script.js"></script>
 </body>
-  </html>
+</html>
